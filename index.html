@@ -20,12 +20,12 @@
   </head>
   <body class="bg-pale_orange">
     <div
-      class="shadow-shadow_1 m-8 mx-auto grid max-w-sm grid-rows-layout gap-3 bg-white p-3 shadow-light_orange"
+      class="m-8 mx-auto grid max-w-sm gap-3 bg-white p-3 shadow-shadow_1 shadow-light_orange"
     >
       <img
         src="./assets/orange.png"
         alt="A single orange"
-        class="h-full min-w-full"
+        class="aspect-square min-w-full"
       />
 
       <div>
@@ -40,7 +40,11 @@
         sun-drenched jewel of the citrus world.
       </p>
       <div class="flex gap-2">
-        <button class="flex-auto bg-orange p-1 text-white">ADD TO CART</button>
+        <button
+          class="flex-auto bg-gradient-to-b from-light_orange to-orange p-1 text-white hover:bg-gradient-to-t"
+        >
+          ADD TO CART
+        </button>
         <button class="w-10 fill-light_orange">
           <svg
             version="1.1"
@@ -68,9 +72,9 @@
           </svg>
         </button>
       </div>
-      <div class="text-slate-500">
+      <div class="text-sm text-slate-500">
         <h3>FEATURES</h3>
-        <ul class="list-disc pl-4 text-slate-500">
+        <ul class="list-disc pl-4 text-slate-500 marker:text-orange">
           <li>
             <span class="font-semibold text-black">Nature's candy:</span> A
             symphony of sweet and tangy notes
