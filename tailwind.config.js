@@ -12,12 +12,6 @@ module.exports = {
         sans: ["Josefin Sans", "sans-serif"],
         title: ["Playfair Display", "serif"],
       },
-      gridTemplateRows: {
-        layout: "230px ",
-      },
-      boxShadow: {
-        shadow_1: "7px 7px 0 0 rgba(0, 0, 0, 0.3)",
-      },
     },
   },
   plugins: [],
