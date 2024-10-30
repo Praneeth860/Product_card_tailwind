@@ -4,7 +4,9 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i ./styles.css -o ./dist/output.css --watch"
+    "build": "tailwindcss -i ./styles.css -o ./dist/output.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +14,7 @@
   "description": "",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
