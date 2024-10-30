@@ -4,8 +4,8 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i ./styles.css -o ./dist/output.css",
     "predeploy": "npm run build",
+    "build": "tailwindcss -i ./styles.css -o ./dist/output.css && cp index.html ./dist/index.html",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
